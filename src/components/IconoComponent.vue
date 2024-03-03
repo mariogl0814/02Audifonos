@@ -19,7 +19,7 @@
 
         <div class="iconos">
             <div v-for="icono in iconos" :key="icono.vinculo"  class="icono">
-                <img :src="`/assets/img/${icono.vinculo}`" :alt="icono.alternativo">
+                <img :src="`/img/${icono.vinculo}`" :alt="icono.alternativo">
                 <h3>{{icono.titulo}}</h3>
                 <p>{{ icono.parrafo }}</p>
             </div>
